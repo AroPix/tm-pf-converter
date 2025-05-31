@@ -6,7 +6,7 @@ this will take a tm2 3d skin and convert it (mostly) to tm2020
 
 the mesh of the skin MUST have been made with tm2's nadeoimporter and not the tmnf meshes (a lot of "tm2" skins are actually tmnf)
 
-i wrote most of this quite a while ago, i cant remember how some of it works, this is more a proof of concept at this point, this thing is mega jank, it WILL break, dont expect it to work with every tm2 skin
+i wrote most of this quite a while ago, i cant remember how some of it works, this is more a proof of concept at this point, this thing is mega jank, it WILL break, dont expect it to work with every tm2 skin, use at own risk
 
 i probably wont be continuing with this
 
