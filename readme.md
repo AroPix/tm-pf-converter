@@ -16,7 +16,7 @@ pls maybe don't upload skins converted with this to maniapark etc, especially no
 - [gbx-py](https://github.com/schadocalex/gbx-py/tree/dev) (i included it to keep stuff simple)
 - probably python 3.11 (or whatever gbx-py requires)
 - tm2020 nadeoimporter (i think nadeoinporter usually comes in tm2020 path)
-- blender (i think i tested it with blender 4.x, some older versions probablywork)
+- blender (i think i tested it with blender 4.x, some older versions probably work)
 - gbx-py requirements: ``python-lzo PySide6 Pillow construct``
 
 ## usage
