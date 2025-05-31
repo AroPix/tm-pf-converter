@@ -30,7 +30,7 @@ it doesn't automatically remove unused textures,,, you probably want to delete d
 edit the ``paths.ini`` file (an example is included):
 - ``BLENDER`` - blender executable path
 - ``TM2020`` - nadeoimporter directory (usually the tm2020 path)
-- ``TMUSERPATH`` - tm2020 user folder (where your skins etc go)
+- ``TMUSERPATH`` - tm2020 user folder (where your skins etc go, Documents/Trackmania2020)
 
 iirc, convert.py needs to be run from its directory, you can run convert.bat instead to do that:
 
