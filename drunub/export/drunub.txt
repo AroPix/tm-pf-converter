@@ -1,0 +1,11 @@
+skin converted using tm-pf-converter :0)
+
+https://github.com/drunub/tm-pf-converter
+
+this is more a proof of concept, this thing is mega jank
+
+i'm not sure i will be continuing with this
+
+only skins made specifically for tm2 (a lot of "tm2" skins use tmf meshes) will work, and even then it sometimes fails
+
+pls maybe don't upload skins converted with this to maniapark etc, especially not without permission from original author, it probably isn't a perfect conversion

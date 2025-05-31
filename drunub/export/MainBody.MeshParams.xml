@@ -1,0 +1,86 @@
+<MeshParams MeshType="Vehicle" SkelSocketPrefix="_">
+
+	<Materials>
+		<Material Name="GlassDmgCrack_Glass" Model="GlassDmgCrack" />
+		<Material Name="DetailsDmgNormal_Details" Model="DetailsDmgNormal" />
+		<Material Name="SkinDmg_Skin" Model="SkinDmg" />
+		<Material Name="DetailsDmgNormal_Wheels" Model="DetailsDmgNormal" />
+		<Material Name="GlassDmgDecal_Glass" Model="GlassDmgDecal" />
+		<Material Name="DetailsDmgDecal_Details" Model="DetailsDmgDecal" />
+		<Material Name="SkinDmgDecal_Skin" Model="SkinDmgDecal" />
+		<Material Name="Gems_Gem" Model="Gems" />
+		<Material Name="GlassRefract_GemGlass" Model="GlassRefract" />
+		<Material Name="DetailsDmgNormal_PrestigeMedal" Model="DetailsDmgNormal" />
+		<Material Name="DetailsDmgDecal_PrestigeMedal" Model="DetailsDmgDecal" />
+		
+		
+		<!--
+		these (below) arent used by the converter but u might find useful for working around a bug(?) with meshes that have >3 lods in nadeoimporter
+		custom materials are a simple way for me to identify meshes in gbx-py :0)
+		-->
+		<Material Name="GlassDmgCrack_Glass_lod1" Model="GlassDmgCrack" />
+		<Material Name="DetailsDmgNormal_Details_lod1" Model="DetailsDmgNormal" />
+		<Material Name="SkinDmg_Skin_lod1" Model="SkinDmg" />
+		<Material Name="DetailsDmgNormal_Wheels_lod1" Model="DetailsDmgNormal" />
+		<Material Name="GlassDmgDecal_Glass_lod1" Model="GlassDmgDecal" />
+		<Material Name="DetailsDmgDecal_Details_lod1" Model="DetailsDmgDecal" />
+		<Material Name="SkinDmgDecal_Skin_lod1" Model="SkinDmgDecal" />
+		<Material Name="Gems_Gem_lod1" Model="Gems" />
+		<Material Name="GlassRefract_GemGlass_lod1" Model="GlassRefract" />
+		<Material Name="DetailsDmgNormal_PrestigeMedal_lod1" Model="DetailsDmgNormal" />
+		<Material Name="DetailsDmgDecal_PrestigeMedal_lod1" Model="DetailsDmgDecal" />
+		
+		<Material Name="GlassDmgCrack_Glass_lod2" Model="GlassDmgCrack" />
+		<Material Name="DetailsDmgNormal_Details_lod2" Model="DetailsDmgNormal" />
+		<Material Name="SkinDmg_Skin_lod2" Model="SkinDmg" />
+		<Material Name="DetailsDmgNormal_Wheels_lod2" Model="DetailsDmgNormal" />
+		<Material Name="GlassDmgDecal_Glass_lod2" Model="GlassDmgDecal" />
+		<Material Name="DetailsDmgDecal_Details_lod2" Model="DetailsDmgDecal" />
+		<Material Name="SkinDmgDecal_Skin_lod2" Model="SkinDmgDecal" />
+		<Material Name="Gems_Gem_lod2" Model="Gems" />
+		<Material Name="GlassRefract_GemGlass_lod1" Model="GlassRefract" />
+		<Material Name="DetailsDmgNormal_PrestigeMedal_lod2" Model="DetailsDmgNormal" />
+		<Material Name="DetailsDmgDecal_PrestigeMedal_lod2" Model="DetailsDmgDecal" />
+		
+		<Material Name="GlassDmgCrack_Glass_lod3" Model="GlassDmgCrack" />
+		<Material Name="DetailsDmgNormal_Details_lod3" Model="DetailsDmgNormal" />
+		<Material Name="SkinDmg_Skin_lod3" Model="SkinDmg" />
+		<Material Name="DetailsDmgNormal_Wheels_lod3" Model="DetailsDmgNormal" />
+		<Material Name="GlassDmgDecal_Glass_lod3" Model="GlassDmgDecal" />
+		<Material Name="DetailsDmgDecal_Details_lod3" Model="DetailsDmgDecal" />
+		<Material Name="SkinDmgDecal_Skin_lod3" Model="SkinDmgDecal" />
+		<Material Name="Gems_Gem_lod3" Model="Gems" />
+		<Material Name="GlassRefract_GemGlass_lod3" Model="GlassRefract" />
+		<Material Name="DetailsDmgNormal_PrestigeMedal_lod3" Model="DetailsDmgNormal" />
+		<Material Name="DetailsDmgDecal_PrestigeMedal_lod3" Model="DetailsDmgDecal" />
+		
+		<Material Name="GlassDmgCrack_Glass_lod4" Model="GlassDmgCrack" />
+		<Material Name="DetailsDmgNormal_Details_lod4" Model="DetailsDmgNormal" />
+		<Material Name="SkinDmg_Skin_lod4" Model="SkinDmg" />
+		<Material Name="DetailsDmgNormal_Wheels_lod4" Model="DetailsDmgNormal" />
+		<Material Name="GlassDmgDecal_Glass_lod4" Model="GlassDmgDecal" />
+		<Material Name="DetailsDmgDecal_Details_lod4" Model="DetailsDmgDecal" />
+		<Material Name="SkinDmgDecal_Skin_lod4" Model="SkinDmgDecal" />
+		<Material Name="Gems_Gem_lod4" Model="Gems" />
+		<Material Name="GlassRefract_GemGlass_lod4" Model="GlassRefract" />
+		<Material Name="DetailsDmgNormal_PrestigeMedal_lod4" Model="DetailsDmgNormal" />
+		<Material Name="DetailsDmgDecal_PrestigeMedal_lod4" Model="DetailsDmgDecal" />
+		
+		<Material Name="GlassDmgCrack_Glass_lod5" Model="GlassDmgCrack" />
+		<Material Name="DetailsDmgNormal_Details_lod5" Model="DetailsDmgNormal" />
+		<Material Name="SkinDmg_Skin_lod5" Model="SkinDmg" />
+		<Material Name="DetailsDmgNormal_Wheels_lod5" Model="DetailsDmgNormal" />
+		<Material Name="GlassDmgDecal_Glass_lod5" Model="GlassDmgDecal" />
+		<Material Name="DetailsDmgDecal_Details_lod5" Model="DetailsDmgDecal" />
+		<Material Name="SkinDmgDecal_Skin_lod5" Model="SkinDmgDecal" />
+		<Material Name="Gems_Gem_lod5" Model="Gems" />
+		<Material Name="GlassRefract_GemGlass_lod5" Model="GlassRefract" />
+		<Material Name="DetailsDmgNormal_PrestigeMedal_lod5" Model="DetailsDmgNormal" />
+		<Material Name="DetailsDmgDecal_PrestigeMedal_lod5" Model="DetailsDmgDecal" />
+	</Materials>
+
+	<Constants />
+	<UvAnims />
+	<VisibleIds />
+	<Color />
+</MeshParams>

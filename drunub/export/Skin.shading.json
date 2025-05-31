@@ -1,0 +1,7 @@
+Constants = [
+    {Name="SkinColorId"   	Value="1"}
+	{Name="SkinColorMetal"	Value="1"}
+]
+Colors = [
+	{Name="SkinColorGreenRgb_Rough"	Value="#1edd1e10"}
+]
