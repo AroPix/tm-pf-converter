@@ -20,18 +20,25 @@ pls maybe don't upload skins converted with this to maniapark etc, especially no
 
 ## usage
 it only takes a tm2 skin zip file as an input
+
 if the skin uses pack files, it WONT work (you need the .solid.mesh files), pack files can be extracted by equipping the skin and  looking inside the memory/temp folder in openplanet in tm2 (i cant remember specifics)
+
 it doesn't automatically remove unused textures,,, you probably want to delete damage or dirt textures if you need to save space
 
+
 edit the ``paths.ini`` file (an example is included):
-``BLENDER`` - blender executable path
-``TM2020`` - nadeoimporter directory (usually the tm2020 path)
-``TMUSERPATH`` - tm2020 user folder (where your skins etc go)
+- ``BLENDER`` - blender executable path
+- ``TM2020`` - nadeoimporter directory (usually the tm2020 path)
+- ``TMUSERPATH`` - tm2020 user folder (where your skins etc go)
 
 iirc, convert.py needs to be run from its directory, you can run convert.bat instead to do that:
+
 example:
+
 ``convert.py tm2skin.zip``
+
 ``convert.bat tm2skin.zip``
+
 
 alternatively, just drag the skin zip file onto convert.bat
 
