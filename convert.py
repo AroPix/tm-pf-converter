@@ -64,6 +64,27 @@ def run_command(command, **kwargs):
     return subprocess.run(command, check=False, **kwargs)
 
 
+def pick_skin_zip():
+    qt_widgets = None
+    try:
+        from PySide6 import QtWidgets
+        qt_widgets = QtWidgets
+    except ImportError:
+        error("Missing input skin zip and PySide6 is not installed for the file picker")
+        raise SystemExit(1)
+
+    app = qt_widgets.QApplication.instance() or qt_widgets.QApplication([])
+    file_path, _ = qt_widgets.QFileDialog.getOpenFileName(
+        None,
+        "Select a TM2 skin zip",
+        str(Path.cwd()),
+        "Zip files (*.zip);;All files (*)",
+    )
+    if not file_path:
+        error("No input skin zip selected")
+    return Path(file_path)
+
+
 conf = config("./paths.ini")
 
 blender = Path(conf.get("blender", "./blender/blender.exe"))
@@ -85,11 +106,7 @@ if not blender.is_file():
 if not importer.is_file():
     error(f"Can't find NadeoImporter, check paths.ini or {importer}")
 
-if len(sys.argv) < 2:
-    error("Missing input skin zip")
-
-
-skin_zip_path = Path(sys.argv[1])
+skin_zip_path = Path(sys.argv[1]) if len(sys.argv) >= 2 else pick_skin_zip()
 
 print("Extracting skin...\n")
 
